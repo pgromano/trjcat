@@ -3,4 +3,5 @@ Bash/Python script to automate concatenation of Gromacs trajectory files. Not se
 
 ### Running
 For a several trajectory files name TRAJ_*.xtc
-  sh process.sh < "TRAJ"
+
+	sh process.sh < "TRAJ"
