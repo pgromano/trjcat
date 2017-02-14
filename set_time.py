@@ -8,5 +8,5 @@ N = len(file_template)
 f = open('settime.inp', 'w')
 files = sorted(glob('*.xtc'))
 for file in files:
-	f.write('%sn; % file[N:-4])
+	f.write('%s\n' %file[N:-4])
 f.close()
