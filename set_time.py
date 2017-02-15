@@ -3,7 +3,7 @@ from glob import glob
 from sys import argv
 
 file_template = str(argv[1])
-N = len(file_template)
+N = len(file_template)+1
 
 f = open('settime.inp', 'w')
 files = sorted(glob('*.xtc'))
